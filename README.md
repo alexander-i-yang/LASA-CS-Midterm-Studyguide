@@ -10,27 +10,13 @@
 ### Commands (doesn’t include all params)
 Name	| Description	| Example	| Parameters
 ------- | ------------- | ------------- | ----------
-help | Displays list of available commands | 'C:\>help' | none
-help [cmd] | Displays info of command | 'C:\>help cd' | [cmd]: command to display
-cd [dir]
-Navigates to the specified directory Can go up the hierarchyand down
-C:\>cd users
-[dir]: directory to navigate to
-cd..
-Navigates to above directory
-C:\Users\>cd..
-
-
-dir
-Displays details about the current directory
-C:\>dir
-
-
-copy [file1] [file2]
-Creates a copy of file1 with name file2
-C:\>copy hello.cpp hello1.cpp
-[file1]: the original file
-[file2]: the new file
+help | Displays list of available commands | `C:\>help` | none
+help [cmd] | Displays info of command | `C:\>help cd` | [cmd]: command to display
+cd [dir] | Navigates to the specified directory. Can go up the hierarchy and down | `C:\>cd users` | [dir]: directory to navigate to
+cd.. | Navigates to above directory | `C:\Users\>cd..`
+dir| Displays details about the current directory | `C:\>dir`
+copy [file1] [file2] | Creates a copy of file1 with name file2 | `C:\>copy hello.cpp hello1.cpp` | [file1]: the original file
+												   [file2]: the new file
 copy con [newfile]
 Copies what the user types into a new file. Ctrl+c, then enter to cancel, ctrl+z, then enter to create the file.
 C:\>copy con hello.cpp
