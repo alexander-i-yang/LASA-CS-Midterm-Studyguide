@@ -6,7 +6,8 @@
   * Easy to use
   * Flexibility with parameters
   * Scripts can be executed
-  * Commands (doesn’t include all params)
+
+### Commands (doesn’t include all params)
 Name | Description | Example | Parameters
 help | Displays list of available commands | 'C:\>help' | none
 help [cmd] | Displays info of command | 'C:\>help cd' | [cmd]: command to display
