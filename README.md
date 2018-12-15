@@ -1,9 +1,9 @@
 # C++
 ## Command line
 ### Why it’s around
-Invented b/c computers didn’t have a gui
-Still around because:
-Easy to use
+* Invented b/c computers didn’t have a gui
+* Still around because:
+  * Easy to use
 Flexibility with parameters
 Scripts can be executed
 Commands (doesn’t include all params)
