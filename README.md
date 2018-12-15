@@ -4,23 +4,12 @@
 * Invented b/c computers didn’t have a gui
 * Still around because:
   * Easy to use
-Flexibility with parameters
-Scripts can be executed
-Commands (doesn’t include all params)
-
-Name
-Description
-Example
-Parameters
-help
-Displays list of available commands
-C:\>help
-
-
-help [cmd]
-Displays info of command
-C:\>help cd
-[cmd]: command to display
+  * Flexibility with parameters
+  * Scripts can be executed
+  * Commands (doesn’t include all params)
+Name | Description | Example | Parameters
+help | Displays list of available commands | 'C:\>help' | none
+help [cmd] | Displays info of command | 'C:\>help cd' | [cmd]: command to display
 cd [dir]
 Navigates to the specified directory Can go up the hierarchyand down
 C:\>cd users
